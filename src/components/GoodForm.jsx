@@ -18,7 +18,21 @@ const GoodForm = () => {
   console.log("RENDER");
 
   return (
+
+
+
+
+
+
+
+
+
+
+
     <div className="app-container">
+
+
+
       <div className="form-group">
         <label>Name</label>
         <input
@@ -31,6 +45,20 @@ const GoodForm = () => {
           <p className="error-message">Name is required.</p>
         )}
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <div className="form-group">
         <label>E-mail</label>
@@ -52,6 +80,20 @@ const GoodForm = () => {
         )}
       </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <div className="form-group">
         <label>Password</label>
         <input
@@ -72,6 +114,16 @@ const GoodForm = () => {
         )}
       </div>
 
+
+
+
+
+
+
+
+
+
+
       <div className="form-group">
         <label>Password confirmation</label>
         <input
@@ -91,6 +143,15 @@ const GoodForm = () => {
           <p className="error-message">Passwords does not match.</p>
         )}
       </div>
+
+
+
+
+
+
+
+
+
       <div className="form-group">
         <label>Profession</label>
         <select
@@ -107,6 +168,15 @@ const GoodForm = () => {
           <p className="error-message">Profession is required.</p>
         )}
       </div>
+
+
+
+
+
+
+
+
+
 
       <div className="form-group">
         <div className="checkbox-group">
@@ -130,6 +200,10 @@ const GoodForm = () => {
       <div className="form-group">
         <button onClick={() => handleSubmit(onSubmit)()}>Criar conta</button>
       </div>
+
+
+
+      
     </div>
   );
 };
